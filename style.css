@@ -1,0 +1,37 @@
+html, body {
+    background: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-items: center;
+    background: green;
+    display: flex;
+    height: 72px;
+}
+
+#newGridBtn {
+    display: block;
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+#container {
+    aspect-ratio: 1 / 1;
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    max-height: calc(100vh - 72px);
+    margin: 0 auto;
+}
+
+#container div {
+    aspect-ratio: 1 / 1;
+    background: #fff;
+}
+
+#container .hoveredDiv {
+    background: #333;
+}
