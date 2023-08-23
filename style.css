@@ -1,25 +1,37 @@
 html, body {
-    background: #ddd;
+    background: #93B1A6;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
     align-items: center;
-    background: green;
+    background: #183D3D;
     display: flex;
+    gap: 50px;
     height: 72px;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+#pageTitle {
+    color: #fff;
+    font-size: 48px;
 }
 
 #newGridBtn {
+    background: #5C8374;
+    border: 1px solid #93B1A6;
+    border-radius: 10px;
+    color: #fff;
     display: block;
     font-size: 32px;
-    margin: 0 auto;
 }
 
 #container {
     aspect-ratio: 1 / 1;
-    background: #ddd;
+    background: #93B1A6;
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
